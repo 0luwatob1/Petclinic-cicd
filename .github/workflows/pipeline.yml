@@ -25,7 +25,7 @@ env:
  
 jobs:
   gitleaks:
-    name: Gitleaks Secret Sca
+    name: Gitleaks Secret Scan
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
