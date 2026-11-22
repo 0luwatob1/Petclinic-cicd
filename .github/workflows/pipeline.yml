@@ -24,8 +24,8 @@ env:
   ECS_SERVICE: ${{ secrets.ECS_SERVICE }}
  
 jobs:
-      gitleaks:
-        name: Gitleaks Secret Scan
+  gitleaks:
+    name: Gitleaks Secret Scan
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
