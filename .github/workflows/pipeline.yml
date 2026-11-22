@@ -137,3 +137,4 @@ jobs:
           sonar-token: ${{ env.SONAR_TOKEN }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
           fail-on-quality-gate-error: false
+
